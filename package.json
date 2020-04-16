@@ -4,5 +4,11 @@
   "main": "index.js",
   "repository": "git@github.com:ryoshii/primeiro-projeto-node.git",
   "author": "Rodrigo Yoshioka <rodrigo.yoshioka@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "typescript": "^3.8.3"
+  }
 }
