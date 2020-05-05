@@ -24,7 +24,7 @@ app.use((err: Error, request: Request, response: Response, _: NextFunction) => {
       .json({ status: 'error', message: err.message });
   }
 
-  console.log(err);
+  console.log(err); //eslint-disable-line
 
   return response
     .status(500)
@@ -32,5 +32,5 @@ app.use((err: Error, request: Request, response: Response, _: NextFunction) => {
 });
 
 app.listen(3333, () => {
-  console.log('🚀 Server starter on port 3333!');
+  console.log('🚀 Server starter on port 3333!'); //eslint-disable-line
 });
